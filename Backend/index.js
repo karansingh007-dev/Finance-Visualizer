@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
-const PORT = process.env.MY_PORT || 5000;
+const PORT = process.env.MY_PATH || 5000;
 
 dotEnv.config();
 
