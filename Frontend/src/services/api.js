@@ -1,4 +1,4 @@
-const BASE_URL = "https://finance-visualizer-b.onrender.com/";
+const BASE_URL = "https://finance-visualizer-b.onrender.com";
 
 
 // Basic fetch wrapper
