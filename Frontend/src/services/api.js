@@ -1,4 +1,4 @@
-const BASE_URL = "https://finance-visualizer-7k3v-aabh492xx-karans-projects-ef63bd26.vercel.app";
+const BASE_URL = "https://finance-visualizer-c3fj.vercel.app";
 
 
 // Basic fetch wrapper
