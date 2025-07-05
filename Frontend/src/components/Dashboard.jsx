@@ -151,8 +151,9 @@ const Dashboard = () => {
       {/* Charts */}
       <div style={{ display: "flex", gap: "50px", marginBottom: "20px" }}>
         <ExpensesBarChart transactions={transactions} />
-        <CategoryPieChart transactions={transactions} />
+        
       </div>
+      <CategoryPieChart transactions={transactions} />
 
       <BudgetComparisonChart budgets={budgetList} transactions={transactions} />
     </div>
