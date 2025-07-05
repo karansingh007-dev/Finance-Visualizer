@@ -160,16 +160,20 @@ const PORT = process.env.MY_PATH || 5000;
 dotEnv.config();
 
 // Middleware
-app.use(cors({
-  origin: [
-    'http://localhost:5173', // for local dev
-    'http://localhost:3000', // for local dev
-    'https://finance-visualizer-bz2l.vercel.app' // your deployed frontend
-  ],
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
-}));
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173", // Vite local dev
+      "http://localhost:3000", // React local dev
+      "https://finance-visualizer-bz2l.vercel.app", // Vercel frontend
+      "https://finance-visualizer-yiyv.onrender.com", // Render frontend
+      "https://finance-visualizer-c3fj.vercel.app", // (optional: backend self-origin)
+    ],
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 
 app.use(bodyParser.json());
 
