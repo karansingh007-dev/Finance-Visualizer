@@ -1,4 +1,4 @@
-const BASE_URL = "https://finance-visualizer-c3fj.vercel.app";
+const BASE_URL = "https://finance-visualizer-b.onrender.com/";
 
 
 // Basic fetch wrapper
