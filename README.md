@@ -66,7 +66,7 @@ Create a `.env` file in the `Backend` directory with the following content:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/budget-app
+MONGO_URI=YOUr_MONGODB_URL
 ```
 
 **Note**: Make sure MongoDB is running on your local machine. If you're using a different MongoDB setup, update the `MONGO_URI` accordingly.
