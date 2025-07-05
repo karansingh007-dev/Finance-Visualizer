@@ -163,11 +163,11 @@ dotEnv.config();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173", // Vite local dev
-      "http://localhost:3000", // React local dev
-      "https://finance-visualizer-bz2l.vercel.app", // Vercel frontend
-      "https://finance-visualizer-yiyv.onrender.com", // Render frontend
-      "https://finance-visualizer-c3fj.vercel.app", // (optional: backend self-origin)
+      "http://localhost:5173",
+      "http://localhost:3000",
+      "https://finance-visualizer-bz2l.vercel.app",
+      "https://finance-visualizer-yiyv.onrender.com",
+      "https://finance-visualizer-c3fj.vercel.app",
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
