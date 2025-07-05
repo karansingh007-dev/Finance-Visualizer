@@ -1,5 +1,5 @@
 // Simple API service
-const BASE_URL = "https://finance-visualizer-7k3v-aabh492xx-karans-projects-ef63bd26.vercel.app";
+const BASE_URL = "https://vercel.com/karans-projects-ef63bd26/finance-visualizer-9pim/EQ1GWUmTxntx512bF6Az4PVybnZ1";
 
 
 // Basic fetch wrapper
